@@ -3,8 +3,10 @@
   --light: #EDE7D9;
   --accent1: #0FA3B1;
   --accent2: #D5A021;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Styling for Header/Navigation bar */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -27,4 +29,13 @@ nav a {
   padding: 15px;
   color: var(--accent2);
   font-size: 20px;
+}
+
+#aboutme {
+  display: inline;
+  flex-wrap: wrap;
+}
+
+#aboutme h2 {
+  text-decoration: underline;
 }
