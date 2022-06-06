@@ -124,6 +124,7 @@ body {
 .flex-item {
   border: 2px solid var(--dark);
   display: flex;
+  flex-wrap: wrap;
   width: 25%;
   justify-content: space-evenly;
   padding: 0 0 20px 0;
@@ -150,6 +151,7 @@ body {
 .projects h3 {
   display: flex;
   justify-content: center;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 .project-1 {
   background-image: url(../images/benoit-deschasaux-unsplash.jpg);
