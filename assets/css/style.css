@@ -179,14 +179,16 @@ body {
 }
 
 #contactinfo ul a {
-  color: var(--dark);
-  padding: 5px;
+  color: var(--light);
+  padding: 5px 30px;
   text-decoration: none;
+  font-weight: bold;
   font-size: 1.3rem;
-  background-image: linear-gradient(270deg, var(--accent3) 0%, var(--accent4) 100%);
+  font-family: "Alegreya Sans SC", sans-serif;
+  background-image: linear-gradient(270deg, var(--accent3) 0%, var(--accent1) 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: bottom;
+  background-size: 80% 0.2em;
+  background-position: bottom center;
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
   display: inline-block;
