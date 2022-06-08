@@ -29,7 +29,7 @@ Resume:
 
 ### Setup 
 
-1. Go to <a href="https://ccaitano.github.io/skills-portfolio" alt="Work Portfolio Site">Cheryl Caitano's Work Portfolio</a> in your browser
+1. Go to <a href="https://ccaitano.github.io/skills-portfolio"> Cheryl Caitano's Work Portfolio</a> in your browser
 
 Copyright (c) June 2022
 
