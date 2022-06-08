@@ -34,7 +34,7 @@ nav a {
   text-decoration: none;
   padding: 0px 15px;
   color: var(--accent2);
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bolder;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
@@ -194,4 +194,42 @@ body {
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
   display: inline-block;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  align-items: center;
+  background-color: var(--dark);
+}
+
+footer p {
+  display: flex;
+  color: var(--accent2);
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
+  }
+
+  .flex-item:first-child {
+    min-height: 150px;
+  }
+
+  .hero-banner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
