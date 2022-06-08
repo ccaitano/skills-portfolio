@@ -15,10 +15,13 @@ Creating an online portfolio of work to showcase skills and talents to potential
 
 Work portfolio aimed at showcasing skills and projects to potential employers. Utilizes flexbox, media inquiries and CSS variables.
 
-#### Screenshot
+#### Screenshots
 
+Main Page:
 <img src="./assets/images/portfolio-screenshot.jpg" alt="Portfolio Page Screenshot"/>
 
+Resume:
+<img src="./assets/images/resume.jpg" alt="Resume Screenshot">
 ### Technologies Used
 
 * HTML
