@@ -1,3 +1,4 @@
+/* Color and Font Stylings */
 :root {
   --dark: #131908;
   --light: #EDE7D9;
@@ -39,7 +40,7 @@ nav a {
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-/* unvisited link */
+/* Styling for Links on Page */
 a:link {
   color: var(--accent2);
 }
@@ -47,12 +48,11 @@ a:link {
 a:visited {
   color: var(--accent3);
 }
-/* mouse over link */
+
 a:hover {
   color: var(--accent4);
 }
 
-/* selected link */
 a:active {
   color: var(--light);
 }
@@ -61,6 +61,7 @@ body {
   background-color: #BDB4A6;
 }
 
+/* Styling for Main Content: About Me, Work Portfolio, Contact Information */
 .stylingbox {
   width: 95%;
   display: flex;
@@ -74,6 +75,7 @@ body {
   color: var(--dark);
 }
 
+/* Styling for About Me Photo */
 .stylingbox #biophoto {
   display: flex;
   align-items: center;
@@ -86,6 +88,7 @@ body {
   justify-content: center;
 } 
 
+/* Styling for About Me Section */
 .stylingbox #bioinfo {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
@@ -106,6 +109,7 @@ body {
   width: 66.66%
 }
 
+/* Styling for Work Portfolio Section */
 #workportfolio h2 {
   display: flex;
   font-family: "Pacifico", sans-serif;
@@ -165,6 +169,7 @@ body {
   background-image: url(../images/luis-gherasim-unsplash.jpg);
 }
 
+/* Styling for Contact Information Section */
 #contactinfo h2 {
   display: flex;
   font-family: "Pacifico", sans-serif;
@@ -196,6 +201,7 @@ body {
   display: inline-block;
 }
 
+/* Styling for Footer Section */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -213,23 +219,46 @@ footer p {
   justify-content: center;
 }
 
+/* Responsive Design Stylings */
 @media screen and (max-width: 768px) {
-  .flex-item,
-  .flex-item:first-child {
-    flex-basis: 100%;
+  header {
+    justify-content: center;
+    padding-bottom: 20px;
   }
 
-  .flex-item:first-child {
-    min-height: 150px;
+  .stylingbox #bioinfo h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
   }
 
-  .hero-banner {
+  .stylingbox #bioinfo p {
+    display: flex;
     justify-content: center;
     text-align: center;
   }
 
-  .contact address {
+  #contactinfo ul {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    padding: 0px;
+  }
+
+@media screen and (max-width: 480px) {
+  header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workportfolio {
+    display: flex;
+    justify-content: center;
   }
 }
