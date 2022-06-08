@@ -140,6 +140,10 @@ body {
   font-size: 0.9rem;
 }
 
+.flex-item:first-child {
+  width: 35%;
+}
+
 .grow {
   transition: all .2s ease-in-out;
 }
@@ -236,6 +240,10 @@ footer p {
   .stylingbox #bioinfo p {
     display: flex;
     justify-content: center;
+    text-align: center;
+  }
+  
+  .projects p {
     text-align: center;
   }
 
