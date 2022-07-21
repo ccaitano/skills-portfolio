@@ -162,11 +162,12 @@ body {
   font-family: "Alegreya Sans SC", sans-serif;
 }
 .project-1 {
+  height: 200px;
   background-image: url(../images/benoit-deschasaux-unsplash.jpg);
 }
 
 .project-2 {
-  background-image: url(../images/elia-pellegrini-unsplash.jpg);
+  background-image: url(../images/aux-nudge.JPG);
 }
 
 .project-3 {
